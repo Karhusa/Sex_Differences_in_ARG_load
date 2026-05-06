@@ -1,4 +1,4 @@
-# Sex-related Differences in Antimicrobial Resistance Gene Load: Determining the Associations of Age, BMI, Antibi-otics, and Diseases
+## Sex-related Differences in Antimicrobial Resistance Gene Load: Determining the Associations of Age, BMI, Antibi-otics, and Diseases
 ## Master's thesis
 
 Saana Karhula 29.10.2025 - 7.5.2026
