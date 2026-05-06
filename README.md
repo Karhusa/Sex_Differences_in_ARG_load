@@ -19,7 +19,9 @@ This section contains analyses of antimicrobial resistance gene load and associa
 
 This section contains all visualizations generated from the analyses.
 
+### 3. Bioprojects
 
+This section contains all bioproject numbers used for the analyses
 
 
 
