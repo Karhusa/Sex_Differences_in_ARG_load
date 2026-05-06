@@ -1,23 +1,23 @@
 # Sex-related Differences in Antimicrobial Resistance Gene Load: Determining the Associations of Age, BMI, Antibi-otics, and Diseases
-### Master's thesis
+## Master's thesis
 
 Saana Karhula 29.10.2025 - 7.5.2026
 
-## 0. Data
+### 0. Data
 
-Includes large datafiles used for combining metadata
+This section includes all large data files used for combining and processing metadata.
   
-## 1. Table fixing
+### 1. Table fixing
 
-Merging, filtering and cleaning metadata
+This section covers merging, filtering, and cleaning of metadata.
 
-## 2. ARG load analyses
+### 2. ARG load analyses
 
-ARG load analyses and results
+This section contains analyses of antimicrobial resistance gene load and associations with host factors.
 
-## 3. Figures 
+### 3. Figures 
 
-Figures of plots
+This section contains all visualizations generated from the analyses.
 
 
 
