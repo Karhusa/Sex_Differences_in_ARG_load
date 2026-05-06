@@ -1,0 +1,48 @@
+## 1. Prepare the data
+### 1.1 Load packages
+```r
+library(SummarizedExperiment)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(ggsci)
+library(mgcv)
+library(ggpubr)
+
+.libPaths(c("~/R/library", .libPaths()))
+.libPaths()
+library(gt)
+```
+### 1.2 Load TSE
+```r
+tse_path <- "/scratch/project_2008149/USER_WORKSPACES/karhula/DATA/TSE.rds"
+TSE <- readRDS(tse_path)
+```
+
+### 1.3 Extract colData
+
+```r
+colData_df <- as.data.frame(colData(TSE))
+
+Subset<- colData_df %>%
+  select(
+    acc,
+    age_years,
+    age_category,
+    log10_ARG_load,
+    sex, 
+    parent,
+    pregnant,
+    antibiotic_use,
+    bioproject,
+    World_Bank_Income_Group)
+
+Subset[Subset == ""] <- NA
+```
+### 1.4 Collect biosample numbers
+```r
+Subset_AB <- Subset %>%
+  filter(antibiotic_use %in% c("Yes", "No"))
+
+unique(Subset_AB$bioproject)
+```
